@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-client-2" />
+        <module name="eureka-client-1" />
+        <module name="eureka-server" />
+        <module name="eureka-client3" />
+        <module name="config-server" />
+        <module name="eureka-feign-client" />
+        <module name="eureka-client-3" />
+        <module name="eureka-config-client" />
+        <module name="eureka-ribbon-client" />
+        <module name="auth-service" />
+        <module name="eureka-zuul-client" />
+        <module name="eureka-monitor-client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-client-3" target="1.8" />
+      <module name="eureka-client3" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth-service" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="eureka-client-1" options="-parameters" />
+      <module name="eureka-client-2" options="-parameters" />
+      <module name="eureka-client-3" options="-parameters" />
+      <module name="eureka-client3" options="-parameters" />
+      <module name="eureka-config-client" options="-parameters" />
+      <module name="eureka-feign-client" options="-parameters" />
+      <module name="eureka-monitor-client" options="-parameters" />
+      <module name="eureka-ribbon-client" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="eureka-zuul-client" options="-parameters" />
+      <module name="spring-cloud-demo" options="-parameters" />
+    </option>
+  </component>
+</project>
